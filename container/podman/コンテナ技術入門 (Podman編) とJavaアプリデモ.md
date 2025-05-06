@@ -326,7 +326,17 @@ podman push 457227455307.dkr.ecr.ap-northeast-1.amazonaws.com/my-java-app-repo:l
 今回はIAM Identity Centerにて研修用のログインアカウントを作成している。
 許可セットについては信頼可能なユーザーのため広めに設定しており次の権限を割り当てた。
 
+`aws configure` コマンドでアクセスキー、シークレットキー、デフォルトリージョンの設定は省略しているが、上記方法であればログイン後にアクセスキーを容易に確認できる。
+
 - AmazonEC2ContainerRegistryFullAccess
 - AmazonEC2ReadOnlyAccess
 - AmazonS3FullAccess
 - AWSLambda_FullAccess
+
+## 補足 実行環境
+
+WSL2環境のUbuntu(24.04)で動作確認済み。
+
+aws cliおよびpodmanが動作すれば良い。
+Podman Desktopは利用していないため、任意の環境で実行可能。
+本資料を説明時にはEC2上のUbuntuを利用する想定。
