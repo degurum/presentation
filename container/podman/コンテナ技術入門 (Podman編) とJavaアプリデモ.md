@@ -320,3 +320,13 @@ podman push 457227455307.dkr.ecr.ap-northeast-1.amazonaws.com/my-java-app-repo:l
 ## ご清聴ありがとうございました
 
 **質疑応答**
+
+## 補足　IAM権限: 使用するAWSユーザーまたはロールにECRへのPush権限
+
+今回はIAM Identity Centerにて研修用のログインアカウントを作成している。
+許可セットについては信頼可能なユーザーのため広めに設定しており次の権限を割り当てた。
+
+- AmazonEC2ContainerRegistryFullAccess
+- AmazonEC2ReadOnlyAccess
+- AmazonS3FullAccess
+- AWSLambda_FullAccess
