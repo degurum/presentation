@@ -42,7 +42,7 @@
 - 「コンテナ」という軽量な箱に入れて、どこでも同じように動かせるようにします。
 このことを｢**可搬性**(Portability)｣と言います。
 
-![[コンテナ技術図示.png]](.\img\コンテナ技術図示.png)
+![[コンテナ技術図示.png]](https://github.com/degurum/presentation/blob/main/container/podman/img/%E3%82%B3%E3%83%B3%E3%83%86%E3%83%8A%E6%8A%80%E8%A1%93%E5%9B%B3%E7%A4%BA.png?raw=true)
 
 ---
 
