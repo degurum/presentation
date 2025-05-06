@@ -326,7 +326,7 @@ podman push 457227455307.dkr.ecr.ap-northeast-1.amazonaws.com/my-java-app-repo:l
 今回はIAM Identity Centerにて研修用のログインアカウントを作成している。
 許可セットについては信頼可能なユーザーのため広めに設定しており次の権限を割り当てた。
 
-`aws configure` コマンドでアクセスキー、シークレットキー、デフォルトリージョンの設定は省略しているが、上記方法であればログイン後にアクセスキーを容易に確認できる。
+`aws configure` コマンドでアクセスキー、シークレットキー、デフォルトリージョンの設定は省略しているが、IAM Identity Centerであればログイン後にアクセスキーを容易に確認できる。
 
 - AmazonEC2ContainerRegistryFullAccess
 - AmazonEC2ReadOnlyAccess
